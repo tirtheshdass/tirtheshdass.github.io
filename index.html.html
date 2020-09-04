@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="styling.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+	html{
+		background: url(back2.gif) no-repeat center fixed; 
+  background-size: cover;
+}
+.responsive{
+	width:50%;
+	height: auto;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color:  #ffff00;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px  #ffa31a;
+}
+
+.button:hover {background-color: #a6ff4d}
+
+.button:active {
+  background-color: #a6ff4d;
+  box-shadow: 0 5px #66cc00;
+  transform: translateY(4px);
+</style>
+</head>
+
+<body>
+	<div id=a3>
+		<h1 id=a2>Lightning  of  lamp</h1>
+	</div>
+	<img id=p1 src="astoma.jpg" alt="Astoma Sadgamya quote">
+	<img id=p2 src="DrRadhaKrishnan.jpg" alt="Dr. Sarvapalli RadhaKrishnan"> 
+	<button class='button' onclick="document.getElementById('myImage').src='Diya_on.gif'">Please light the diya</button>
+	<img class="size" id="myImage" src="Diya_off.gif" style="width:200px" class="responsive">
+	<audio controls autoplay>
+  <source src="astoma_song.ogg" type="audio/ogg">
+  <source src="astoma_song.mpeg" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html>
